@@ -1,0 +1,9 @@
+# created by virtualenv automatically
+.DS_Store
+node_modules
+.tmp
+npm-debug.log
+*logs/
+/bin
+/lib
+.idea
