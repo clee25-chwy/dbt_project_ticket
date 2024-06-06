@@ -1,8 +1,10 @@
 import duckdb
 import pandas as pd
+# Show all the colms from df
+pd.set_option('display.max_columns', None)
 
 sql_query = '''
-show tables
+SELECT * FROM parking_violation_codes limit 5
 '''
 
 with duckdb.connect('data/nyc_parking_violations.db') as con:
@@ -16,7 +18,7 @@ FROM read_csv_auto(
     normalize_names=True
 )
 '''
-
+# normalize_names -> add _ in all columns name if there is space
 sql_query_import_2 = '''
 CREATE OR REPLACE TABLE parking_violations_2023 AS
 SELECT *
