@@ -1,1 +1,2 @@
-**This is a repo to create a dbt project to analyze the NYC Parking ticket.
+# dbt project
+<p> This is a repo to analyze NYC parking tickets. </p>
