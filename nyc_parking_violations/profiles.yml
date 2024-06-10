@@ -7,7 +7,7 @@ nyc_parking_violations:
   target: dev
 
 #If using snowflake connection
-#dbtlearn:
+#nyc_parking_violations:
 #  outputs:
 #    dev:
 #      account: chewy.us-east-1
