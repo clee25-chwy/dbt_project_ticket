@@ -5,3 +5,19 @@ nyc_parking_violations:
       type: duckdb
       path: '../data/nyc_parking_violations.db' # where to find your data platform
   target: dev
+
+#If using snowflake connection
+#dbtlearn:
+#  outputs:
+#    dev:
+#      account: chewy.us-east-1
+#      authenticator: https://chewy.okta.com/login
+#      database: EDLDB_DEV
+#      role: MKT_DEVELOPER
+#      schema: MKT_SANDBOX
+#      threads: 1
+#      type: snowflake
+#      user: username
+#      password: password
+#      warehouse: MKT_WH
+#  target: dev
