@@ -6,7 +6,7 @@ name: 'nyc_parking_violations'
 version: '1.0.0'
 config-version: 2
 
-# This setting configures which "profile" dbt uses for this project.
+# This setting configures which "profile" dbt uses for this project. Link to profiles.yml
 profile: 'nyc_parking_violations'
 
 # These configurations specify where dbt should look for different types of files.

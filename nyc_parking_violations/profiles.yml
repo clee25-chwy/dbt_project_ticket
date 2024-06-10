@@ -1,0 +1,6 @@
+# The dbt_project.yml will find this document for the information and connect to the data platform.
+nyc_parking_violations:
+  outputs:
+    dev:
+      type: duckdb
+  target: dev
