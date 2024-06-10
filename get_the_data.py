@@ -4,8 +4,10 @@ import pandas as pd
 pd.set_option('display.max_columns', None)
 
 sql_query = '''
-SELECT * FROM parking_violation_codes limit 5
+SHOW TABLES
 '''
+
+# SELECT * FROM parking_violation_codes limit 5
 
 with duckdb.connect('data/nyc_parking_violations.db') as con:
     print(con.sql(sql_query).df())
