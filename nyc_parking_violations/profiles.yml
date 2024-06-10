@@ -3,5 +3,5 @@ nyc_parking_violations:
   outputs:
     dev:
       type: duckdb
-      path: '../data/nyc_parking_violations.db'
+      path: '../data/nyc_parking_violations.db' # where to find your data platform
   target: dev
