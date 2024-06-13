@@ -6,7 +6,7 @@ nyc_parking_violations:
       path: '../data/nyc_parking_violations.db' # where to find your data platform
     prod:
       type: duckdb
-      path: '../data/prod_nyc_parking_violations.db' # where to find your data platform
+      path: './data/prod_nyc_parking_violations.db' # where to find your data platform
   target: dev
 
 #If using snowflake connection
